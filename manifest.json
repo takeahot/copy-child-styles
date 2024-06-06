@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Copy Styles Extension",
+    "version": "1.0",
+    "description": "Copy styles of a selected element and its children",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
